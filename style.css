@@ -1,0 +1,52 @@
+.header-Footer {
+    height: 100px;
+    background-color: darkorange;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+button {
+    height: 46px;
+    width: 20%;
+}
+
+.cards {
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+img{
+    height: 60%;
+    width: 95%;
+}
+p{
+    width: 95%;
+    text-align:center;
+}
+.card button{
+    width: 95%;
+}
+.card{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 480px;
+    width: 32%;
+}
